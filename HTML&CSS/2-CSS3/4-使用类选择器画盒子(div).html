@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .frame {
+            width: 300px;
+            height: 600px;
+            margin: 100px auto auto;
+            border-radius: 35px;
+        }
+
+        .one {
+            background-color: black;
+            width: 300px;
+            height: 200px;
+            border-radius: 35px 35px 0px 0px;
+        }
+
+        .two {
+            background-color: aqua;
+            width: 300px;
+            height: 200px;
+        }
+
+        .three {
+            background-color: red;
+            width: 300px;
+            height: 200px;
+            border-radius: 0px 0px 35px 35px; /*左上 右上 右下 左下*/
+        }
+
+        p {
+            position: absolute;
+            color: black;
+            font-size: 30px;
+            margin-top: 85px;
+            margin-left: 68px;
+        }
+
+        .cl {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+    <div class="one"><p class="cl">黑色#000000</p></div>
+    <div class="two"><p>蓝色#00ffff</p></div>
+    <div class="three"><p>红色#ff0000</p></div>
+</div>
+</body>
+</html>
