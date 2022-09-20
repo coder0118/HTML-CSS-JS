@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-box {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 270px;
+    height: 392px;
+    background-color: #535758;
+    border-radius: 18px;
+}
+
+a {
+    text-indent: 2em;
+    line-height: 45px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven {
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#one {
+    margin-top: 34px;
+}
+
+#one {
+    border-radius: 10px 10px 0 0;
+}
+
+#seven {
+    border-radius: 0 0 15px 10px;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover {
+    background-color: darkorange;
+}
